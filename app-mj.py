@@ -21,10 +21,7 @@ SOCIAL_MEDIA = {
     "LinkedIn": "http://www.linkedin.com/in/marketajetelova/",
 }
 PROJECTS = {
-    "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-    "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
+    "🏆 Analýza cukráren pro lidi s dietními omezeními": "https://medium.com/@jetelovamarketa/anal%C3%BDza-cukr%C3%A1ren-pro-lidi-s-dietn%C3%ADmi-omezen%C3%ADmi-3327c0dc46d0",
 }
 SECTIONS = {
     "Experience": "Experience",
@@ -135,6 +132,7 @@ if my_radio == "Portfolio":
     for project, link in PROJECTS.items():
         st.write(f"[{project}]({link})")
 
+# --- AWESOMENESS LEVEL ---
 for i in range(awesomeness_level + 1):
     awesomeness_level = i
     with st.sidebar:
